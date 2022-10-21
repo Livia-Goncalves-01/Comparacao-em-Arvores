@@ -16,7 +16,7 @@ Elabore um relatório detalhando a implementação dessas estruturas, funcioname
 
 ## Resultados das comparações
 
-Para obter um tempo médio dos resultados e tornar mais acertivo as comparações foi realizado 10 medições de cada volume de dados, tanto inserção, remoção e pesquisa de cada árvore. Esses testes foram realizados em um computador com Intel (R) Core (TM) i5-11400F @ 2.60GHz com 16 GB de RAM no Visual Studio utilizando-se o WSL do Ubuntu. 
+Para obter um tempo médio dos resultados e tornar mais acertivo as comparações foi realizado 10 medições de cada volume de dados, tanto inserção, remoção e pesquisa de cada estrutura. Esses testes foram realizados em um computador com Intel (R) Core (TM) i5-11400F @ 2.60GHz com 16 GB de RAM no Visual Studio utilizando-se o WSL do Ubuntu. 
 Como resultados obteve-se:
 
 ### 500 dados
@@ -34,3 +34,8 @@ Como resultados obteve-se:
 ### 500000 dados
 
 ![image](https://user-images.githubusercontent.com/95262005/197091190-75031368-5004-466d-99b5-5e3786a9ee29.png)
+
+
+## Conclusão 
+
+É possível observar que a estrutura mais rápida varia de acordo com o volume de dados é trabalhado e se estamos inserindo, removendo ou pesquisando dentro da estrutura. Trabalhando com o volume de 500 e 5.00 dados a estrutura Red Black é a mais rápida. Trabalhando com o volume de 50.000 ados, tem-se na inserção a estrutura Red Black também como mais rápida e a Pesquisa e remoção a estrutura Map realizando o processo com mais velocidade. Na inserção olume de dados de 500.000 o Vector ganha velocidade
