@@ -41,9 +41,9 @@ Como resultados obteve-se:
 
 ## Conclusão 
 
-É possível observar que a estrutura mais rápida varia de acordo com o volume de dados é trabalhado e se estamos inserindo, removendo ou pesquisando dentro da estrutura. Trabalhando com o volume de 500 e 5.00 dados a estrutura Red Black é a mais rápida. Trabalhando com o volume de 50.000 ados, tem-se na inserção a estrutura Red Black também como mais rápida e a Pesquisa e remoção a estrutura Map realizando o processo com mais velocidade. Na inserção e pesquisa volume de dados de 500.000, o Vector ganha velocidade com relação as outras estruturas. Na remoção o Map já consegue ter um custo de tempo menor. 
+É possível observar que a estrutura mais rápida varia de acordo com o volume de dados é trabalhado e se estamos inserindo, removendo ou pesquisando dentro da estrutura. Trabalhando com o volume de 500 e 5.00 dados a estrutura Red Black é a mais rápida, perdendo apenas para o Vector na inserção. Trabalhando com o volume de 50.000 ados, tem-se na inserção a estrutura Vector como mais rápida e a Pesquisa e remoção a estrutura Map realizando o processo com mais velocidade. Na inserção e pesquisa volume de dados de 500.000, o Vector ganha velocidade com relação as outras estruturas. Na remoção o Map já consegue ter um custo de tempo menor. 
 
-Como comparação, observa-se que o Vector é a estrutura na maior parte a mais lenta por causa da implementação e a Red Black conseguiu uma boa posição em todos os volumes de dados podendo ser considerada a estrutura mais rápida de acordo com a implementação no código. 
+Como comparação, observa-se que o Vector é a estrutura, na remoção, a mais lenta por causa da implementação e na inserção a mais rápida e a Red Black conseguiu uma boa posição em todos os volumes de dados podendo ser considerada a estrutura mais rápida de acordo com a implementação no código e a média dos dados. 
 
 ## Compilação e Execução
 
