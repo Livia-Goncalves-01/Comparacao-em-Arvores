@@ -1,4 +1,7 @@
 # Comparação das Estruturas em Árvores
+<div style="display: inline-block;">
+<img align="center" height="20px" width="80px" src="https://img.shields.io/badge/Made%20in-VSCode-red"/> 
+</div>
 
 ## Objetivo
 
@@ -38,4 +41,20 @@ Como resultados obteve-se:
 
 ## Conclusão 
 
-É possível observar que a estrutura mais rápida varia de acordo com o volume de dados é trabalhado e se estamos inserindo, removendo ou pesquisando dentro da estrutura. Trabalhando com o volume de 500 e 5.00 dados a estrutura Red Black é a mais rápida. Trabalhando com o volume de 50.000 ados, tem-se na inserção a estrutura Red Black também como mais rápida e a Pesquisa e remoção a estrutura Map realizando o processo com mais velocidade. Na inserção olume de dados de 500.000 o Vector ganha velocidade
+É possível observar que a estrutura mais rápida varia de acordo com o volume de dados é trabalhado e se estamos inserindo, removendo ou pesquisando dentro da estrutura. Trabalhando com o volume de 500 e 5.00 dados a estrutura Red Black é a mais rápida. Trabalhando com o volume de 50.000 ados, tem-se na inserção a estrutura Red Black também como mais rápida e a Pesquisa e remoção a estrutura Map realizando o processo com mais velocidade. Na inserção volume de dados de 500.000, o Vector ganha velocidade com relação as outras estruturas. Na remoção e pesquisa o Map já consegue ter um custo de tempo menor. 
+
+Como comparação, observa-se que o Vector é a estrutura na maior parte a mais lenta por causa da implementação e a Red Black conseguiu uma boa posição em todos os volumes de dados podendo ser considerada a estrutura mais rápida de acordo com a implementação no código. 
+
+## Compilação e Execução
+
+O algoritmo possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+
+
+| Comando                |  Função                                                                                           |                     
+| -----------------------| ------------------------------------------------------------------------------------------------- |
+|  `make clean`          | Apaga a última compilação realizada contida na pasta build                                        |
+|  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
+|  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
+
+
+<p>Trabalho realizado Gabriel Teixeira Júlio e Lívia Gonçalves - Maio/2022</p>
